@@ -5,7 +5,7 @@ trigger:
       - master
 
 pool:
-  name: Default  # If you’re using Microsoft-hosted, change this to: vmImage: 'windows-latest'
+  name: Default  
 
 steps:
 - task: UseDotNet@2
